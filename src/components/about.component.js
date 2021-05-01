@@ -12,7 +12,6 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     aboutPageLoaded: dispatch(aboutPageLoaded(true)),
-    dispatch,
   };
 };
 
@@ -34,4 +33,4 @@ class About extends Component {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(About);
+export default connect(mapStateToProps)(About);
