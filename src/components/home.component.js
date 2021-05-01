@@ -5,7 +5,7 @@ class Home extends Component {
     return (
       <div>
         <h2>HELLO</h2>
-        <p>I am Pushpak. Full stack front end developer</p>
+        <p>Full stack front end developer</p>
       </div>
     );
   }

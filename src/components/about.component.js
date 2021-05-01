@@ -22,7 +22,7 @@ class About extends Component {
   render() {
     return (
       <div>
-        <h3>My Work stack </h3>
+        <h3>Stack </h3>
         <ul>
           {this.props.stackList.map((stack) => (
             <li>{stack}</li>
